@@ -1,0 +1,25 @@
+@media (max-width:670px){
+    
+    .navbar-collapse ul{
+        width: 75% !important;
+        direction: rtl;
+        
+    }
+    .bright-title{
+        display: block !important;
+    }
+    .second-title {
+        
+        font-size: 36px;
+        padding-block: 6px;
+    }
+   .moon h2{
+    margin-top: 10px;
+   }
+    .submit{
+        margin-block: 20px;
+    }
+    .def-lone{
+        margin-bottom: 25px;
+    }
+}

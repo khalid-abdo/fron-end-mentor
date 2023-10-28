@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+body{
+    font-size: 15px
+}
+h1 , h2{
+    font-weight: 700;
+}
+.nav-item{
+    padding-inline: 5px;
+}
+
+.nav-item a{
+    color:var(--Very-dark-blue);
+}
+.nav-item a:hover{
+    color: var(--Soft-red);
+}
+.hide{
+    display: none;
+}
+/* end of navbar at the top of page */
+.submit{
+    width: 160px;
+    padding: 8px;
+    border: none;
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.submit:hover{
+    background-color: var(--Very-dark-blue);
+    
+
+}
+.second-title{
+    font-weight: 800;
+}
+.moon{
+    background-color: var(--Very-dark-blue);
+}
+.moon h2{
+    color: var(--Soft-orange);
+}
+.moon h4{
+    color: var(--Off-white);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.moon h4:hover{
+    color: var(--Soft-orange);
+}
+.moon p{
+    color: var(--Dark-grayish-blue);
+    font-weight: 700;
+}
+
+.first-news{
+    margin-block: 43px;
+    padding-block: 0px;
+    border-bottom: 1px solid var(--Dark-grayish-blue);
+}
+.last-new{
+    border: none !important;
+} 
+/* end of section news */
+#three-def{
+    margin-block: 50px;
+}
+.def h2{
+    color: var(--Grayish-blue);
+}
+.def h4 {
+    font-weight: 700;
+    font-size: 19px;
+    padding-block: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.def h4:hover{
+    color: var(--Soft-red);
+}
+.def p{
+    font-weight: 700;
+    color: var(--Dark-grayish-blue);
+}
